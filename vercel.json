@@ -5,14 +5,15 @@
       "src": "dist/main.js",
       "use": "@vercel/node",
       "config": {
-        "includeFiles": ["dist/**", "node_modules/**"]
+        "maxLambdaSize": "50mb",
+        "includeFiles": ["dist/**"]
       }
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/dist/main.js"
+      "dest": "dist/main.js"
     }
   ],
   "env": {
