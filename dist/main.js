@@ -7,6 +7,7 @@ const swagger_config_1 = require("./config/swagger.config");
 const common_1 = require("./common");
 async function bootstrap() {
     const app = await core_1.NestFactory.create(app_module_1.AppModule);
+    app.enableCors();
     const documentFactory = () => swagger_1.SwaggerModule.createDocument(app, swagger_config_1.swaggerConfig);
     swagger_1.SwaggerModule.setup(`${common_1.SWAGGER_DOCS}`, app, documentFactory);
     app.useGlobalFilters(new common_1.GlobalExceptionsFilter());
