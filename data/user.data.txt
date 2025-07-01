@@ -1,0 +1,83 @@
+{
+  "name": "Nishit",
+  "phone": "9876543210",
+  "email": "nishit@gmail.com",
+  "password": "nishit@123",
+  "address": {
+    "street": "ABCD 1",
+    "city": "ABCD 2",
+    "pincode": "852741"
+  }
+}
+
+{
+  "name": "Meshwa",
+  "phone": "7418529630",
+  "email": "meshwa@gmail.com",
+  "password": "Meshwa123",
+  "address": {
+    "street": "123 Ring Road",
+    "city": "Bardoli",
+    "pincode": "808962"
+  }
+}
+
+{
+  "name": "Part",
+  "phone": "8745896523",
+  "email": "parth@gmail.com",
+  "password": "parth123",
+  "address": {
+    "street": "ABCD Road",
+    "city": "Gandhidham",
+    "pincode": "748596"
+  }
+}
+
+{
+  "name": "Mahi",
+  "phone": "7410741085",
+  "email": "mahi@gmail.com",
+  "password": "Mahi123",
+  "address": {
+    "street": "Ahmedabad",
+    "city": "Ahmedabad",
+    "pincode": "858585"
+  }
+}
+
+{
+  "name": "Mohit Saraf",
+  "phone": "7874589652",
+  "email": "mohit@gmail.com",
+  "password": "Mohit123",
+  "address": {
+    "street": "Bandup",
+    "city": "Mumbai",
+    "pincode": "123456"
+  }
+}
+
+{
+  "name": "Monika Sarabhai",
+  "phone": "8528520012",
+  "email": "monika@gmail.com",
+  "password": "Monika123",
+  "address": {
+    "street": "Marol",
+    "city": "Navi - Mumbai",
+    "pincode": "654321"
+  }
+}
+
+{
+  "name": "Champak ChaCha",
+  "phone": "string",
+  "email": "champak@gmail.com",
+  "password": "Champak123",
+  "address": {
+    "street": "ABCD2",
+    "city": "ABCD3",
+    "pincode": "111111"
+  }
+}

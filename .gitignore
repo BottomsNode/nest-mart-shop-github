@@ -1,7 +1,6 @@
 # compiled output
 /node_modules
 /src/database
-/data
 /uploads
 
 # Logs
