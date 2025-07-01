@@ -6,6 +6,7 @@ import { GlobalExceptionsFilter, PORT, SWAGGER_DOCS } from './common';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
+  app.enableCors();
   const documentFactory = () =>
     SwaggerModule.createDocument(app, swaggerConfig);
   SwaggerModule.setup(`${SWAGGER_DOCS}`, app, documentFactory);

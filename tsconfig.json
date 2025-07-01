@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "strict": false,
+    "lib": ["es2017", "dom"],
     "module": "commonjs",
     "declaration": true,
     "removeComments": true,
@@ -19,6 +20,6 @@
     "strictBindCallApply": false,
     "noFallthroughCasesInSwitch": false
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*.ts"],
   "exclude": ["node_modules", "dist"]
 }
