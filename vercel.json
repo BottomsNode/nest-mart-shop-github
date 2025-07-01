@@ -15,18 +15,5 @@
       "src": "/(.*)",
       "dest": "dist/main.js"
     }
-  ],
-  "env": {
-    "DB_HOST": "ep-empty-snowflake-a57tugor-pooler.us-east-2.aws.neon.tech",
-    "DB_PORT": "5432",
-    "DB_USERNAME": "neondb_owner",
-    "DB_PASSWORD": "npg_np2NQgCL1tbB",
-    "DB_NAME": "neondb",
-    "SWAGGER_DOCS": "nest-mart-api-docs",
-    "JWT_SECRET": "RFV545Ucewd4353fergeVGBhyDR345345y45y456y64575ngyugwergfegt453434654645t6gt6ngvcRT4v",
-    "SESSION_SECRET": "nest-mart-session-secret-cfbtgbfcegrt6nwhfiwehnfihrfiumhr5vb678nm",
-    "NODE_ENV": "production",
-    "DB_SSL_MODE": "require",
-    "DB_CHANNEL_BINDING": "require"
-  }
+  ]
 }
